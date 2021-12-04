@@ -19,7 +19,7 @@ public abstract class Echipa {
         }
         else return false;
     }
-//I'm not sure about remove here
+
     boolean removeMembru(Membru member){
         if(membri.contains(member) == true){
             membri.remove(member);
@@ -51,7 +51,7 @@ public abstract class Echipa {
             this.nume = nume;
         }
         else {
-            System.out.println("Doar liderul poate modifica");
+           System.out.println("Doar liderul poate modifica");
         }
     }
 //Metoda asta nu da eroare, dar nu vrea sa recunoasca liderul :')
