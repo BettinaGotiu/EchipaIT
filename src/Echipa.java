@@ -45,7 +45,8 @@ public abstract class Echipa {
             return true;
         }
     }
-
+    
+//Metoda asta seteaza un alt nume de la lider,dar tot afiseaza si eroarea :')
     public void setNume(String nume, Membru membru) {
         if(membru.equals(this.lider)) {
             this.nume = nume;
